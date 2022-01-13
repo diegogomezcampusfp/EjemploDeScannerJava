@@ -1,0 +1,26 @@
+COPIAMOS EL SIGUIENTE CÓDIGO EN ECLIPSE
+
+package paquete1;
+//Para poder usar Scanner importamos esta libreria.
+import java.util.Scanner;
+public class ejemplos {
+
+	public static void main(String[] args) {
+		//Utilizamos Scanner para poder crear una entrada (poder introducir datos como usuario).
+		Scanner entrada = new Scanner(System.in);
+		//Debajo del scanner definimos la variable con el tipo de dato que queremos introducir.
+		int numero;
+		//Con un system out creamos la pregunta de entrada.
+		System.out.println("Dime un número");
+		//Utilizando la variable que hemos usado en el Scanner (en este caso entrada) almacenamos en la variable número el dato que queramos escribir.
+		numero = entrada.nextInt();
+		//Esta linea suma 5 al dúmero que introduzcamos
+		numero += 5;
+		//Uso un system out para mostrar el resultado
+		System.out.println("Tu número es: "+numero);
+		
+		
+
+	}
+
+}
